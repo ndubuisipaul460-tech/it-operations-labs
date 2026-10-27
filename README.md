@@ -60,6 +60,6 @@ Every runbook follows the same frame: **acknowledge → assess impact → invest
 
 ## Related Repositories
 
-- [network-engineer-labs](https://github.com/ndubuisipaul460-tech/network-engineer-labs): Packet Tracer labs (VLANs, OSPF, IPsec VPN), Palo Alto troubleshooting
+- [network-engineer-labs](https://github.com/ndubuisipaul460-tech/network-engineer-labs): Packet Tracer labs (VLANs, OSPF, IPsec VPN), Cisco ASA troubleshooting
 - [linux-admin-labs](https://github.com/ndubuisipaul460-tech/linux-admin-labs): Linux administration notes and Bash scripts
 - [wireshark-labs](https://github.com/ndubuisipaul460-tech/wireshark-labs): packet analysis labs
