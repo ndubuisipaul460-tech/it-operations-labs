@@ -1,0 +1,7 @@
+Name,Host,Port
+Google DNS,8.8.8.8,53
+Cloudflare HTTPS,one.one.one.one,443
+Microsoft 365,outlook.office365.com,443
+GitHub,github.com,443
+Local RDP (expected down),127.0.0.1,3389
+Bad DNS name (expected fail),does-not-exist.invalid,443

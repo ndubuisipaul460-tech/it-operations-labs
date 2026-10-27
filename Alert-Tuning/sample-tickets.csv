@@ -1,0 +1,892 @@
+Number,Opened,AlertName,ConfigItem,Priority,ResolutionCode
+INC100001,2026-07-01 01:29,Datastore > 90%,esxi-ds-02,P3,Auto-cleared
+INC100002,2026-07-01 05:50,UNIX disk /var > 80%,unix-app-03,P4,False positive
+INC100003,2026-07-01 07:05,UNIX disk /var > 80%,unix-app-03,P4,Escalated to L2
+INC100004,2026-07-01 07:44,UNIX disk /var > 80%,unix-app-03,P4,Auto-cleared
+INC100005,2026-07-01 13:55,Mainframe link down,mf-gw-02,P1,Resolved - fixed
+INC100006,2026-07-01 16:53,SNMP interface flap,sw-core-02,P4,False positive
+INC100007,2026-07-01 20:14,Windows CPU > 90% 5 min,win-web-03,P3,No action required
+INC100008,2026-07-02 01:53,Batch job late (informational),batch-sched-03,P4,Duplicate
+INC100009,2026-07-02 02:07,Service stopped: IIS W3SVC,win-web-02,P2,Auto-cleared
+INC100010,2026-07-02 02:57,Batch job late (informational),batch-sched-01,P4,False positive
+INC100011,2026-07-02 03:40,Batch job late (informational),batch-sched-02,P4,No action required
+INC100012,2026-07-02 08:27,SNMP interface flap,sw-core-03,P4,Auto-cleared
+INC100013,2026-07-02 09:31,UNIX disk /var > 80%,unix-app-02,P4,False positive
+INC100014,2026-07-02 10:28,SNMP interface flap,sw-core-02,P4,No action required
+INC100015,2026-07-02 11:25,Windows CPU > 90% 5 min,win-web-03,P3,False positive
+INC100016,2026-07-02 13:26,Batch job late (informational),batch-sched-02,P4,False positive
+INC100017,2026-07-02 16:56,SNMP interface flap,sw-core-03,P4,No action required
+INC100018,2026-07-02 19:51,Backup job failed,bkp-01,P3,Resolved - fixed
+INC100019,2026-07-02 23:52,Datastore > 90%,esxi-ds-01,P3,Auto-cleared
+INC100020,2026-07-02 23:55,UNIX disk /var > 80%,unix-app-04,P4,Escalated to L2
+INC100021,2026-07-03 03:41,UNIX disk /var > 80%,unix-app-03,P4,False positive
+INC100022,2026-07-03 05:39,Batch job late (informational),batch-sched-04,P4,Duplicate
+INC100023,2026-07-03 13:34,SNMP interface flap,sw-core-03,P4,No action required
+INC100024,2026-07-03 15:14,SNMP interface flap,sw-core-03,P4,Duplicate
+INC100025,2026-07-03 15:24,UNIX disk /var > 80%,unix-app-02,P4,False positive
+INC100026,2026-07-03 16:43,Batch job late (informational),batch-sched-04,P4,False positive
+INC100027,2026-07-03 23:18,UNIX disk /var > 80%,unix-app-04,P4,Duplicate
+INC100028,2026-07-04 10:09,SNMP interface flap,sw-core-01,P4,Duplicate
+INC100029,2026-07-04 13:00,Windows CPU > 90% 5 min,win-web-04,P3,Duplicate
+INC100030,2026-07-04 15:00,Batch job late (informational),batch-sched-03,P4,False positive
+INC100031,2026-07-04 19:53,Windows CPU > 90% 5 min,win-web-03,P3,No action required
+INC100032,2026-07-04 21:16,Service stopped: IIS W3SVC,win-web-02,P2,Resolved - fixed
+INC100033,2026-07-04 23:26,SNMP interface flap,sw-core-04,P4,Auto-cleared
+INC100034,2026-07-05 00:51,SNMP interface flap,sw-core-02,P4,Duplicate
+INC100035,2026-07-05 01:28,Backup job failed,bkp-03,P3,Resolved - workaround
+INC100036,2026-07-05 03:12,SNMP interface flap,sw-core-01,P4,No action required
+INC100037,2026-07-05 03:25,UNIX disk /var > 80%,unix-app-03,P4,Escalated to L2
+INC100038,2026-07-05 04:28,UNIX disk /var > 80%,unix-app-03,P4,No action required
+INC100039,2026-07-05 04:57,UNIX disk /var > 80%,unix-app-01,P4,False positive
+INC100040,2026-07-05 05:42,Batch job late (informational),batch-sched-01,P4,Duplicate
+INC100041,2026-07-05 12:25,Backup job failed,bkp-04,P3,Escalated to L2
+INC100042,2026-07-05 13:50,UNIX disk /var > 80%,unix-app-02,P4,Duplicate
+INC100043,2026-07-05 14:30,UNIX disk /var > 80%,unix-app-01,P4,No action required
+INC100044,2026-07-05 14:53,Windows CPU > 90% 5 min,win-web-02,P3,Auto-cleared
+INC100045,2026-07-05 15:45,Windows CPU > 90% 5 min,win-web-03,P3,Auto-cleared
+INC100046,2026-07-05 18:40,Windows CPU > 90% 5 min,win-web-04,P3,Duplicate
+INC100047,2026-07-05 20:20,SNMP interface flap,sw-core-02,P4,Duplicate
+INC100048,2026-07-06 02:35,Batch job late (informational),batch-sched-01,P4,Auto-cleared
+INC100049,2026-07-06 04:15,UNIX disk /var > 80%,unix-app-02,P4,Resolved - fixed
+INC100050,2026-07-06 10:16,UNIX disk /var > 80%,unix-app-03,P4,Duplicate
+INC100051,2026-07-06 12:24,UNIX disk /var > 80%,unix-app-01,P4,Duplicate
+INC100052,2026-07-06 13:12,Datastore > 90%,esxi-ds-02,P3,False positive
+INC100053,2026-07-06 14:54,Windows CPU > 90% 5 min,win-web-02,P3,Escalated to L2
+INC100054,2026-07-06 17:12,SNMP interface flap,sw-core-01,P4,False positive
+INC100055,2026-07-06 20:18,UNIX disk /var > 80%,unix-app-04,P4,Duplicate
+INC100056,2026-07-06 20:50,Service stopped: IIS W3SVC,win-web-04,P2,Escalated to L2
+INC100057,2026-07-06 23:59,SNMP interface flap,sw-core-03,P4,False positive
+INC100058,2026-07-07 02:39,SNMP interface flap,sw-core-01,P4,No action required
+INC100059,2026-07-07 02:44,Batch job late (informational),batch-sched-01,P4,No action required
+INC100060,2026-07-07 03:14,UNIX disk /var > 80%,unix-app-01,P4,Resolved - workaround
+INC100061,2026-07-07 03:50,SNMP interface flap,sw-core-01,P4,Escalated to L2
+INC100062,2026-07-07 04:28,Windows CPU > 90% 5 min,win-web-02,P3,No action required
+INC100063,2026-07-07 05:26,Batch job late (informational),batch-sched-02,P4,No action required
+INC100064,2026-07-07 05:41,UNIX disk /var > 80%,unix-app-04,P4,Auto-cleared
+INC100065,2026-07-07 05:52,SNMP interface flap,sw-core-02,P4,Auto-cleared
+INC100066,2026-07-07 06:34,Batch job late (informational),batch-sched-03,P4,Duplicate
+INC100067,2026-07-07 08:00,SNMP interface flap,sw-core-01,P4,No action required
+INC100068,2026-07-07 11:05,UNIX disk /var > 80%,unix-app-02,P4,No action required
+INC100069,2026-07-07 11:29,UNIX disk /var > 80%,unix-app-02,P4,Duplicate
+INC100070,2026-07-07 13:27,SNMP interface flap,sw-core-04,P4,No action required
+INC100071,2026-07-07 17:34,Batch job late (informational),batch-sched-04,P4,False positive
+INC100072,2026-07-07 19:27,UNIX disk /var > 80%,unix-app-03,P4,Duplicate
+INC100073,2026-07-07 19:28,Service stopped: IIS W3SVC,win-web-04,P2,Resolved - fixed
+INC100074,2026-07-08 00:34,SNMP interface flap,sw-core-01,P4,No action required
+INC100075,2026-07-08 07:18,Windows CPU > 90% 5 min,win-web-03,P3,Auto-cleared
+INC100076,2026-07-08 07:43,UNIX disk /var > 80%,unix-app-03,P4,False positive
+INC100077,2026-07-08 10:02,SNMP interface flap,sw-core-03,P4,Auto-cleared
+INC100078,2026-07-08 11:12,Batch job late (informational),batch-sched-02,P4,False positive
+INC100079,2026-07-08 14:37,Batch job late (informational),batch-sched-02,P4,Auto-cleared
+INC100080,2026-07-08 19:13,Backup job failed,bkp-04,P3,Escalated to L2
+INC100081,2026-07-08 21:22,Batch job late (informational),batch-sched-01,P4,Auto-cleared
+INC100082,2026-07-08 22:42,Batch job late (informational),batch-sched-04,P4,False positive
+INC100083,2026-07-08 23:25,Backup job failed,bkp-04,P3,Escalated to L2
+INC100084,2026-07-09 00:22,UNIX disk /var > 80%,unix-app-01,P4,Duplicate
+INC100085,2026-07-09 00:31,SNMP interface flap,sw-core-02,P4,No action required
+INC100086,2026-07-09 04:53,SNMP interface flap,sw-core-04,P4,Duplicate
+INC100087,2026-07-09 07:15,Service stopped: IIS W3SVC,win-web-04,P2,Resolved - workaround
+INC100088,2026-07-09 07:55,Batch job late (informational),batch-sched-04,P4,Duplicate
+INC100089,2026-07-09 08:15,SNMP interface flap,sw-core-01,P4,No action required
+INC100090,2026-07-09 08:21,SNMP interface flap,sw-core-04,P4,Resolved - fixed
+INC100091,2026-07-09 10:36,UNIX disk /var > 80%,unix-app-03,P4,Duplicate
+INC100092,2026-07-09 11:13,Service stopped: IIS W3SVC,win-web-04,P2,Auto-cleared
+INC100093,2026-07-09 12:15,Batch job late (informational),batch-sched-04,P4,False positive
+INC100094,2026-07-09 14:03,UNIX disk /var > 80%,unix-app-03,P4,False positive
+INC100095,2026-07-09 14:55,Service stopped: IIS W3SVC,win-web-01,P2,Resolved - fixed
+INC100096,2026-07-09 21:23,Batch job late (informational),batch-sched-03,P4,No action required
+INC100097,2026-07-09 23:24,Batch job late (informational),batch-sched-04,P4,Auto-cleared
+INC100098,2026-07-09 23:24,Windows CPU > 90% 5 min,win-web-04,P3,Escalated to L2
+INC100099,2026-07-10 00:39,SNMP interface flap,sw-core-02,P4,No action required
+INC100100,2026-07-10 01:31,Batch job late (informational),batch-sched-01,P4,False positive
+INC100101,2026-07-10 02:44,Datastore > 90%,esxi-ds-03,P3,Auto-cleared
+INC100102,2026-07-10 03:38,Windows CPU > 90% 5 min,win-web-01,P3,Auto-cleared
+INC100103,2026-07-10 05:34,Backup job failed,bkp-02,P3,Escalated to L2
+INC100104,2026-07-10 06:36,UNIX disk /var > 80%,unix-app-01,P4,Duplicate
+INC100105,2026-07-10 07:43,Batch job late (informational),batch-sched-03,P4,Auto-cleared
+INC100106,2026-07-10 08:06,UNIX disk /var > 80%,unix-app-04,P4,Duplicate
+INC100107,2026-07-10 09:38,Batch job late (informational),batch-sched-01,P4,Duplicate
+INC100108,2026-07-10 10:19,SNMP interface flap,sw-core-02,P4,Auto-cleared
+INC100109,2026-07-10 17:46,Batch job late (informational),batch-sched-02,P4,Auto-cleared
+INC100110,2026-07-10 20:48,UNIX disk /var > 80%,unix-app-03,P4,Duplicate
+INC100111,2026-07-10 22:55,Batch job late (informational),batch-sched-02,P4,Duplicate
+INC100112,2026-07-11 02:14,SNMP interface flap,sw-core-03,P4,False positive
+INC100113,2026-07-11 02:53,SNMP interface flap,sw-core-03,P4,Auto-cleared
+INC100114,2026-07-11 03:41,UNIX disk /var > 80%,unix-app-04,P4,Auto-cleared
+INC100115,2026-07-11 04:23,UNIX disk /var > 80%,unix-app-01,P4,Auto-cleared
+INC100116,2026-07-11 08:47,Batch job late (informational),batch-sched-02,P4,Auto-cleared
+INC100117,2026-07-11 11:58,UNIX disk /var > 80%,unix-app-02,P4,Duplicate
+INC100118,2026-07-11 19:09,Windows CPU > 90% 5 min,win-web-02,P3,False positive
+INC100119,2026-07-11 21:53,UNIX disk /var > 80%,unix-app-02,P4,Escalated to L2
+INC100120,2026-07-12 02:10,SNMP interface flap,sw-core-04,P4,False positive
+INC100121,2026-07-12 02:14,Windows CPU > 90% 5 min,win-web-04,P3,False positive
+INC100122,2026-07-12 03:54,SNMP interface flap,sw-core-04,P4,No action required
+INC100123,2026-07-12 07:24,Batch job late (informational),batch-sched-04,P4,Auto-cleared
+INC100124,2026-07-12 07:55,SNMP interface flap,sw-core-04,P4,False positive
+INC100125,2026-07-12 09:46,SNMP interface flap,sw-core-01,P4,Escalated to L2
+INC100126,2026-07-12 11:40,SNMP interface flap,sw-core-04,P4,Duplicate
+INC100127,2026-07-12 11:44,UNIX disk /var > 80%,unix-app-02,P4,No action required
+INC100128,2026-07-12 11:45,SNMP interface flap,sw-core-03,P4,Duplicate
+INC100129,2026-07-12 14:24,UNIX disk /var > 80%,unix-app-01,P4,Duplicate
+INC100130,2026-07-12 16:28,UNIX disk /var > 80%,unix-app-03,P4,Auto-cleared
+INC100131,2026-07-12 17:41,SNMP interface flap,sw-core-03,P4,No action required
+INC100132,2026-07-12 18:12,SNMP interface flap,sw-core-03,P4,Auto-cleared
+INC100133,2026-07-12 21:39,SNMP interface flap,sw-core-03,P4,No action required
+INC100134,2026-07-13 03:17,UNIX disk /var > 80%,unix-app-04,P4,Duplicate
+INC100135,2026-07-13 04:35,Windows CPU > 90% 5 min,win-web-03,P3,Escalated to L2
+INC100136,2026-07-13 10:04,Datastore > 90%,esxi-ds-04,P3,Escalated to L2
+INC100137,2026-07-13 11:52,Windows CPU > 90% 5 min,win-web-02,P3,Auto-cleared
+INC100138,2026-07-13 14:11,UNIX disk /var > 80%,unix-app-01,P4,No action required
+INC100139,2026-07-13 16:02,Batch job late (informational),batch-sched-03,P4,Auto-cleared
+INC100140,2026-07-13 17:20,SNMP interface flap,sw-core-03,P4,No action required
+INC100141,2026-07-13 17:44,Windows CPU > 90% 5 min,win-web-02,P3,False positive
+INC100142,2026-07-13 22:34,Batch job late (informational),batch-sched-04,P4,Duplicate
+INC100143,2026-07-14 13:55,UNIX disk /var > 80%,unix-app-01,P4,Duplicate
+INC100144,2026-07-14 17:29,UNIX disk /var > 80%,unix-app-02,P4,Auto-cleared
+INC100145,2026-07-14 18:08,Backup job failed,bkp-01,P3,Escalated to L2
+INC100146,2026-07-14 18:48,Windows CPU > 90% 5 min,win-web-04,P3,Auto-cleared
+INC100147,2026-07-14 20:56,Windows CPU > 90% 5 min,win-web-04,P3,Auto-cleared
+INC100148,2026-07-14 22:38,Windows CPU > 90% 5 min,win-web-04,P3,Duplicate
+INC100149,2026-07-14 23:31,Backup job failed,bkp-04,P3,No action required
+INC100150,2026-07-15 00:58,SNMP interface flap,sw-core-04,P4,Auto-cleared
+INC100151,2026-07-15 02:52,Windows CPU > 90% 5 min,win-web-01,P3,No action required
+INC100152,2026-07-15 03:29,Service stopped: IIS W3SVC,win-web-04,P2,Resolved - workaround
+INC100153,2026-07-15 03:52,SNMP interface flap,sw-core-01,P4,No action required
+INC100154,2026-07-15 07:11,Backup job failed,bkp-02,P3,Duplicate
+INC100155,2026-07-15 07:38,Batch job late (informational),batch-sched-01,P4,No action required
+INC100156,2026-07-15 08:18,Service stopped: IIS W3SVC,win-web-01,P2,Resolved - workaround
+INC100157,2026-07-15 16:58,UNIX disk /var > 80%,unix-app-01,P4,False positive
+INC100158,2026-07-15 19:19,Backup job failed,bkp-03,P3,Resolved - fixed
+INC100159,2026-07-16 02:35,Batch job late (informational),batch-sched-02,P4,Auto-cleared
+INC100160,2026-07-16 04:44,Batch job late (informational),batch-sched-01,P4,Duplicate
+INC100161,2026-07-16 05:16,Batch job late (informational),batch-sched-03,P4,False positive
+INC100162,2026-07-16 05:22,Batch job late (informational),batch-sched-02,P4,No action required
+INC100163,2026-07-16 07:27,Batch job late (informational),batch-sched-01,P4,False positive
+INC100164,2026-07-16 15:27,SNMP interface flap,sw-core-03,P4,False positive
+INC100165,2026-07-16 17:10,SNMP interface flap,sw-core-01,P4,False positive
+INC100166,2026-07-16 19:00,SNMP interface flap,sw-core-02,P4,No action required
+INC100167,2026-07-16 20:33,Datastore > 90%,esxi-ds-03,P3,Escalated to L2
+INC100168,2026-07-16 22:26,UNIX disk /var > 80%,unix-app-02,P4,False positive
+INC100169,2026-07-16 23:22,Windows CPU > 90% 5 min,win-web-04,P3,False positive
+INC100170,2026-07-16 23:30,Datastore > 90%,esxi-ds-01,P3,Resolved - fixed
+INC100171,2026-07-16 23:41,SNMP interface flap,sw-core-03,P4,Duplicate
+INC100172,2026-07-17 04:12,Datastore > 90%,esxi-ds-04,P3,Escalated to L2
+INC100173,2026-07-17 07:48,Batch job late (informational),batch-sched-01,P4,Duplicate
+INC100174,2026-07-17 07:59,UNIX disk /var > 80%,unix-app-03,P4,Auto-cleared
+INC100175,2026-07-17 09:47,SNMP interface flap,sw-core-04,P4,Resolved - workaround
+INC100176,2026-07-17 13:45,Datastore > 90%,esxi-ds-02,P3,Escalated to L2
+INC100177,2026-07-17 15:52,Batch job late (informational),batch-sched-04,P4,Auto-cleared
+INC100178,2026-07-17 19:39,Windows CPU > 90% 5 min,win-web-03,P3,Resolved - workaround
+INC100179,2026-07-17 21:45,Batch job late (informational),batch-sched-01,P4,False positive
+INC100180,2026-07-17 21:47,Batch job late (informational),batch-sched-02,P4,Auto-cleared
+INC100181,2026-07-18 03:02,Windows CPU > 90% 5 min,win-web-02,P3,Escalated to L2
+INC100182,2026-07-18 06:50,UNIX disk /var > 80%,unix-app-01,P4,No action required
+INC100183,2026-07-18 08:46,Windows CPU > 90% 5 min,win-web-04,P3,Duplicate
+INC100184,2026-07-18 10:25,UNIX disk /var > 80%,unix-app-03,P4,False positive
+INC100185,2026-07-18 11:16,Batch job late (informational),batch-sched-03,P4,Duplicate
+INC100186,2026-07-18 11:26,SNMP interface flap,sw-core-02,P4,Auto-cleared
+INC100187,2026-07-19 00:49,Service stopped: IIS W3SVC,win-web-01,P2,Resolved - workaround
+INC100188,2026-07-19 03:58,UNIX disk /var > 80%,unix-app-03,P4,False positive
+INC100189,2026-07-19 04:11,Backup job failed,bkp-02,P3,Auto-cleared
+INC100190,2026-07-19 14:12,UNIX disk /var > 80%,unix-app-02,P4,Duplicate
+INC100191,2026-07-19 14:34,SNMP interface flap,sw-core-02,P4,Auto-cleared
+INC100192,2026-07-19 16:15,Mainframe link down,mf-gw-04,P1,Resolved - fixed
+INC100193,2026-07-19 17:32,Batch job late (informational),batch-sched-01,P4,No action required
+INC100194,2026-07-19 18:11,Windows CPU > 90% 5 min,win-web-04,P3,No action required
+INC100195,2026-07-20 05:50,Batch job late (informational),batch-sched-03,P4,False positive
+INC100196,2026-07-20 10:13,Batch job late (informational),batch-sched-02,P4,Auto-cleared
+INC100197,2026-07-20 11:27,Windows CPU > 90% 5 min,win-web-03,P3,Duplicate
+INC100198,2026-07-20 13:43,Service stopped: IIS W3SVC,win-web-02,P2,Resolved - workaround
+INC100199,2026-07-20 13:59,Windows CPU > 90% 5 min,win-web-01,P3,No action required
+INC100200,2026-07-20 14:21,UNIX disk /var > 80%,unix-app-01,P4,Resolved - workaround
+INC100201,2026-07-20 21:37,UNIX disk /var > 80%,unix-app-02,P4,No action required
+INC100202,2026-07-20 22:03,UNIX disk /var > 80%,unix-app-01,P4,False positive
+INC100203,2026-07-21 07:33,Batch job late (informational),batch-sched-04,P4,No action required
+INC100204,2026-07-21 07:36,UNIX disk /var > 80%,unix-app-01,P4,No action required
+INC100205,2026-07-21 07:40,Datastore > 90%,esxi-ds-04,P3,Resolved - fixed
+INC100206,2026-07-21 10:27,Batch job late (informational),batch-sched-03,P4,False positive
+INC100207,2026-07-21 10:44,UNIX disk /var > 80%,unix-app-01,P4,Auto-cleared
+INC100208,2026-07-21 10:51,UNIX disk /var > 80%,unix-app-04,P4,Resolved - fixed
+INC100209,2026-07-21 14:14,Backup job failed,bkp-01,P3,Escalated to L2
+INC100210,2026-07-21 18:22,Batch job late (informational),batch-sched-04,P4,False positive
+INC100211,2026-07-21 18:57,Batch job late (informational),batch-sched-01,P4,No action required
+INC100212,2026-07-22 02:29,Batch job late (informational),batch-sched-02,P4,Auto-cleared
+INC100213,2026-07-22 04:10,Datastore > 90%,esxi-ds-04,P3,Resolved - fixed
+INC100214,2026-07-22 10:30,Windows CPU > 90% 5 min,win-web-03,P3,Duplicate
+INC100215,2026-07-22 12:08,SNMP interface flap,sw-core-02,P4,Duplicate
+INC100216,2026-07-22 12:45,Datastore > 90%,esxi-ds-03,P3,Escalated to L2
+INC100217,2026-07-22 13:09,SNMP interface flap,sw-core-03,P4,No action required
+INC100218,2026-07-22 19:05,UNIX disk /var > 80%,unix-app-01,P4,No action required
+INC100219,2026-07-22 19:59,UNIX disk /var > 80%,unix-app-02,P4,No action required
+INC100220,2026-07-22 23:15,UNIX disk /var > 80%,unix-app-02,P4,False positive
+INC100221,2026-07-23 00:05,Windows CPU > 90% 5 min,win-web-04,P3,Duplicate
+INC100222,2026-07-23 06:04,Batch job late (informational),batch-sched-01,P4,False positive
+INC100223,2026-07-23 13:33,UNIX disk /var > 80%,unix-app-01,P4,Duplicate
+INC100224,2026-07-23 13:35,Windows CPU > 90% 5 min,win-web-03,P3,No action required
+INC100225,2026-07-23 14:10,UNIX disk /var > 80%,unix-app-02,P4,False positive
+INC100226,2026-07-23 15:11,UNIX disk /var > 80%,unix-app-02,P4,False positive
+INC100227,2026-07-23 17:25,Batch job late (informational),batch-sched-02,P4,Duplicate
+INC100228,2026-07-23 19:27,SNMP interface flap,sw-core-02,P4,Duplicate
+INC100229,2026-07-23 20:34,UNIX disk /var > 80%,unix-app-01,P4,Resolved - fixed
+INC100230,2026-07-23 22:29,SNMP interface flap,sw-core-03,P4,Auto-cleared
+INC100231,2026-07-23 23:32,UNIX disk /var > 80%,unix-app-01,P4,Resolved - workaround
+INC100232,2026-07-24 05:02,Windows CPU > 90% 5 min,win-web-04,P3,No action required
+INC100233,2026-07-24 07:04,SNMP interface flap,sw-core-04,P4,Auto-cleared
+INC100234,2026-07-24 10:08,Windows CPU > 90% 5 min,win-web-04,P3,Resolved - workaround
+INC100235,2026-07-24 14:12,UNIX disk /var > 80%,unix-app-04,P4,Duplicate
+INC100236,2026-07-24 18:08,Service stopped: IIS W3SVC,win-web-03,P2,Resolved - workaround
+INC100237,2026-07-24 19:23,Windows CPU > 90% 5 min,win-web-04,P3,False positive
+INC100238,2026-07-25 02:38,UNIX disk /var > 80%,unix-app-04,P4,Duplicate
+INC100239,2026-07-25 04:03,Windows CPU > 90% 5 min,win-web-02,P3,Escalated to L2
+INC100240,2026-07-25 04:14,UNIX disk /var > 80%,unix-app-04,P4,Duplicate
+INC100241,2026-07-25 06:50,UNIX disk /var > 80%,unix-app-04,P4,No action required
+INC100242,2026-07-25 07:23,UNIX disk /var > 80%,unix-app-04,P4,Duplicate
+INC100243,2026-07-25 07:58,Batch job late (informational),batch-sched-03,P4,No action required
+INC100244,2026-07-25 08:53,UNIX disk /var > 80%,unix-app-02,P4,Duplicate
+INC100245,2026-07-25 10:27,Windows CPU > 90% 5 min,win-web-01,P3,No action required
+INC100246,2026-07-25 10:37,Batch job late (informational),batch-sched-03,P4,Duplicate
+INC100247,2026-07-25 15:49,UNIX disk /var > 80%,unix-app-01,P4,Auto-cleared
+INC100248,2026-07-25 16:34,Batch job late (informational),batch-sched-01,P4,Duplicate
+INC100249,2026-07-25 18:09,Batch job late (informational),batch-sched-01,P4,Duplicate
+INC100250,2026-07-25 18:25,SNMP interface flap,sw-core-04,P4,False positive
+INC100251,2026-07-25 23:36,SNMP interface flap,sw-core-04,P4,No action required
+INC100252,2026-07-25 23:46,SNMP interface flap,sw-core-01,P4,No action required
+INC100253,2026-07-26 03:28,UNIX disk /var > 80%,unix-app-03,P4,False positive
+INC100254,2026-07-26 05:49,Batch job late (informational),batch-sched-02,P4,Auto-cleared
+INC100255,2026-07-26 08:37,UNIX disk /var > 80%,unix-app-03,P4,Duplicate
+INC100256,2026-07-26 10:55,UNIX disk /var > 80%,unix-app-03,P4,Escalated to L2
+INC100257,2026-07-26 11:21,Datastore > 90%,esxi-ds-01,P3,Resolved - fixed
+INC100258,2026-07-26 14:37,Windows CPU > 90% 5 min,win-web-03,P3,False positive
+INC100259,2026-07-26 15:30,UNIX disk /var > 80%,unix-app-02,P4,Duplicate
+INC100260,2026-07-26 17:52,UNIX disk /var > 80%,unix-app-02,P4,False positive
+INC100261,2026-07-26 21:38,Windows CPU > 90% 5 min,win-web-02,P3,False positive
+INC100262,2026-07-26 22:43,SNMP interface flap,sw-core-03,P4,Auto-cleared
+INC100263,2026-07-26 23:29,Windows CPU > 90% 5 min,win-web-02,P3,No action required
+INC100264,2026-07-27 02:46,UNIX disk /var > 80%,unix-app-04,P4,Duplicate
+INC100265,2026-07-27 03:09,Windows CPU > 90% 5 min,win-web-04,P3,Auto-cleared
+INC100266,2026-07-27 08:03,Batch job late (informational),batch-sched-02,P4,No action required
+INC100267,2026-07-27 08:27,SNMP interface flap,sw-core-03,P4,No action required
+INC100268,2026-07-27 12:17,SNMP interface flap,sw-core-02,P4,Duplicate
+INC100269,2026-07-27 12:40,Batch job late (informational),batch-sched-02,P4,False positive
+INC100270,2026-07-27 14:04,Batch job late (informational),batch-sched-03,P4,Auto-cleared
+INC100271,2026-07-27 17:02,SNMP interface flap,sw-core-01,P4,Auto-cleared
+INC100272,2026-07-27 21:37,Batch job late (informational),batch-sched-04,P4,Auto-cleared
+INC100273,2026-07-28 01:34,UNIX disk /var > 80%,unix-app-03,P4,False positive
+INC100274,2026-07-28 07:18,Batch job late (informational),batch-sched-01,P4,No action required
+INC100275,2026-07-28 09:49,Batch job late (informational),batch-sched-01,P4,Auto-cleared
+INC100276,2026-07-28 11:12,Windows CPU > 90% 5 min,win-web-02,P3,Escalated to L2
+INC100277,2026-07-28 11:36,Windows CPU > 90% 5 min,win-web-03,P3,No action required
+INC100278,2026-07-28 18:41,UNIX disk /var > 80%,unix-app-02,P4,Auto-cleared
+INC100279,2026-07-28 22:15,Datastore > 90%,esxi-ds-02,P3,Resolved - workaround
+INC100280,2026-07-29 05:42,SNMP interface flap,sw-core-04,P4,Escalated to L2
+INC100281,2026-07-29 06:50,UNIX disk /var > 80%,unix-app-01,P4,False positive
+INC100282,2026-07-29 11:35,Windows CPU > 90% 5 min,win-web-02,P3,Auto-cleared
+INC100283,2026-07-29 12:09,Batch job late (informational),batch-sched-01,P4,Duplicate
+INC100284,2026-07-29 12:31,Batch job late (informational),batch-sched-02,P4,Duplicate
+INC100285,2026-07-29 14:00,Service stopped: IIS W3SVC,win-web-03,P2,Escalated to L2
+INC100286,2026-07-29 14:20,Batch job late (informational),batch-sched-03,P4,False positive
+INC100287,2026-07-29 15:02,Batch job late (informational),batch-sched-03,P4,Auto-cleared
+INC100288,2026-07-29 17:25,SNMP interface flap,sw-core-04,P4,Escalated to L2
+INC100289,2026-07-29 18:41,UNIX disk /var > 80%,unix-app-01,P4,Resolved - fixed
+INC100290,2026-07-29 22:48,Service stopped: IIS W3SVC,win-web-01,P2,Resolved - fixed
+INC100291,2026-07-29 23:04,UNIX disk /var > 80%,unix-app-04,P4,False positive
+INC100292,2026-07-30 02:24,UNIX disk /var > 80%,unix-app-02,P4,Resolved - fixed
+INC100293,2026-07-30 04:30,Batch job late (informational),batch-sched-04,P4,Auto-cleared
+INC100294,2026-07-30 08:51,SNMP interface flap,sw-core-03,P4,Resolved - fixed
+INC100295,2026-07-30 15:54,Batch job late (informational),batch-sched-03,P4,False positive
+INC100296,2026-07-30 16:07,Batch job late (informational),batch-sched-03,P4,No action required
+INC100297,2026-07-30 18:59,Batch job late (informational),batch-sched-01,P4,False positive
+INC100298,2026-07-30 20:21,SNMP interface flap,sw-core-04,P4,Duplicate
+INC100299,2026-07-31 03:26,Datastore > 90%,esxi-ds-03,P3,Resolved - fixed
+INC100300,2026-07-31 07:35,SNMP interface flap,sw-core-01,P4,No action required
+INC100301,2026-07-31 14:52,UNIX disk /var > 80%,unix-app-02,P4,Duplicate
+INC100302,2026-07-31 20:24,SNMP interface flap,sw-core-04,P4,False positive
+INC100303,2026-07-31 23:09,SNMP interface flap,sw-core-03,P4,Duplicate
+INC100304,2026-08-01 00:23,Datastore > 90%,esxi-ds-01,P3,Resolved - workaround
+INC100305,2026-08-01 02:41,Backup job failed,bkp-02,P3,Resolved - workaround
+INC100306,2026-08-01 16:56,Batch job late (informational),batch-sched-02,P4,False positive
+INC100307,2026-08-01 17:28,Batch job late (informational),batch-sched-04,P4,No action required
+INC100308,2026-08-01 22:49,SNMP interface flap,sw-core-04,P4,Auto-cleared
+INC100309,2026-08-01 23:57,SNMP interface flap,sw-core-04,P4,Duplicate
+INC100310,2026-08-02 00:55,Batch job late (informational),batch-sched-03,P4,Auto-cleared
+INC100311,2026-08-02 04:37,UNIX disk /var > 80%,unix-app-02,P4,False positive
+INC100312,2026-08-02 05:12,Datastore > 90%,esxi-ds-03,P3,Auto-cleared
+INC100313,2026-08-02 07:04,Datastore > 90%,esxi-ds-02,P3,Resolved - fixed
+INC100314,2026-08-02 15:04,UNIX disk /var > 80%,unix-app-02,P4,Auto-cleared
+INC100315,2026-08-02 18:15,Batch job late (informational),batch-sched-02,P4,No action required
+INC100316,2026-08-03 02:56,SNMP interface flap,sw-core-04,P4,Duplicate
+INC100317,2026-08-03 06:15,Batch job late (informational),batch-sched-04,P4,Auto-cleared
+INC100318,2026-08-03 11:33,SNMP interface flap,sw-core-04,P4,False positive
+INC100319,2026-08-03 12:41,Windows CPU > 90% 5 min,win-web-04,P3,No action required
+INC100320,2026-08-03 13:54,Batch job late (informational),batch-sched-02,P4,Duplicate
+INC100321,2026-08-03 15:14,UNIX disk /var > 80%,unix-app-03,P4,False positive
+INC100322,2026-08-03 16:40,UNIX disk /var > 80%,unix-app-01,P4,Duplicate
+INC100323,2026-08-04 00:07,Datastore > 90%,esxi-ds-04,P3,Escalated to L2
+INC100324,2026-08-04 00:49,UNIX disk /var > 80%,unix-app-03,P4,No action required
+INC100325,2026-08-04 01:16,Batch job late (informational),batch-sched-03,P4,Auto-cleared
+INC100326,2026-08-04 02:01,Windows CPU > 90% 5 min,win-web-04,P3,Resolved - workaround
+INC100327,2026-08-04 03:34,Batch job late (informational),batch-sched-04,P4,No action required
+INC100328,2026-08-04 06:23,Windows CPU > 90% 5 min,win-web-02,P3,False positive
+INC100329,2026-08-04 14:23,UNIX disk /var > 80%,unix-app-02,P4,Duplicate
+INC100330,2026-08-04 15:34,Windows CPU > 90% 5 min,win-web-03,P3,Duplicate
+INC100331,2026-08-04 17:06,UNIX disk /var > 80%,unix-app-03,P4,Duplicate
+INC100332,2026-08-04 19:34,Datastore > 90%,esxi-ds-04,P3,Resolved - workaround
+INC100333,2026-08-04 20:04,Batch job late (informational),batch-sched-02,P4,Auto-cleared
+INC100334,2026-08-04 20:21,SNMP interface flap,sw-core-02,P4,Resolved - fixed
+INC100335,2026-08-04 20:49,Batch job late (informational),batch-sched-01,P4,No action required
+INC100336,2026-08-04 22:31,Batch job late (informational),batch-sched-01,P4,Auto-cleared
+INC100337,2026-08-05 00:22,UNIX disk /var > 80%,unix-app-02,P4,No action required
+INC100338,2026-08-05 02:58,Batch job late (informational),batch-sched-01,P4,False positive
+INC100339,2026-08-05 03:35,SNMP interface flap,sw-core-02,P4,Resolved - workaround
+INC100340,2026-08-05 08:25,Datastore > 90%,esxi-ds-03,P3,No action required
+INC100341,2026-08-05 09:00,SNMP interface flap,sw-core-02,P4,False positive
+INC100342,2026-08-05 12:57,SNMP interface flap,sw-core-04,P4,No action required
+INC100343,2026-08-06 01:49,Batch job late (informational),batch-sched-04,P4,Auto-cleared
+INC100344,2026-08-06 05:31,SNMP interface flap,sw-core-02,P4,Duplicate
+INC100345,2026-08-06 05:44,SNMP interface flap,sw-core-04,P4,No action required
+INC100346,2026-08-06 05:47,SNMP interface flap,sw-core-04,P4,Escalated to L2
+INC100347,2026-08-06 07:36,UNIX disk /var > 80%,unix-app-03,P4,Escalated to L2
+INC100348,2026-08-06 19:25,UNIX disk /var > 80%,unix-app-03,P4,Duplicate
+INC100349,2026-08-06 21:38,Windows CPU > 90% 5 min,win-web-01,P3,Duplicate
+INC100350,2026-08-06 23:05,UNIX disk /var > 80%,unix-app-03,P4,No action required
+INC100351,2026-08-06 23:49,UNIX disk /var > 80%,unix-app-04,P4,Auto-cleared
+INC100352,2026-08-07 04:58,SNMP interface flap,sw-core-03,P4,No action required
+INC100353,2026-08-07 09:25,SNMP interface flap,sw-core-01,P4,False positive
+INC100354,2026-08-07 11:15,UNIX disk /var > 80%,unix-app-04,P4,Duplicate
+INC100355,2026-08-07 14:45,UNIX disk /var > 80%,unix-app-04,P4,Duplicate
+INC100356,2026-08-07 15:26,Windows CPU > 90% 5 min,win-web-02,P3,No action required
+INC100357,2026-08-07 20:16,UNIX disk /var > 80%,unix-app-04,P4,False positive
+INC100358,2026-08-08 00:53,Windows CPU > 90% 5 min,win-web-01,P3,Resolved - fixed
+INC100359,2026-08-08 01:39,Batch job late (informational),batch-sched-04,P4,False positive
+INC100360,2026-08-08 03:49,Datastore > 90%,esxi-ds-01,P3,Auto-cleared
+INC100361,2026-08-08 09:36,UNIX disk /var > 80%,unix-app-02,P4,False positive
+INC100362,2026-08-08 12:04,UNIX disk /var > 80%,unix-app-02,P4,False positive
+INC100363,2026-08-08 13:19,UNIX disk /var > 80%,unix-app-01,P4,No action required
+INC100364,2026-08-08 13:34,Windows CPU > 90% 5 min,win-web-01,P3,No action required
+INC100365,2026-08-08 16:43,UNIX disk /var > 80%,unix-app-02,P4,Auto-cleared
+INC100366,2026-08-09 03:30,SNMP interface flap,sw-core-04,P4,Auto-cleared
+INC100367,2026-08-09 06:11,UNIX disk /var > 80%,unix-app-03,P4,Duplicate
+INC100368,2026-08-09 06:14,Backup job failed,bkp-04,P3,Resolved - fixed
+INC100369,2026-08-09 07:26,SNMP interface flap,sw-core-02,P4,Duplicate
+INC100370,2026-08-09 09:04,SNMP interface flap,sw-core-01,P4,No action required
+INC100371,2026-08-09 15:20,UNIX disk /var > 80%,unix-app-04,P4,Duplicate
+INC100372,2026-08-09 15:44,SNMP interface flap,sw-core-04,P4,No action required
+INC100373,2026-08-09 17:19,UNIX disk /var > 80%,unix-app-04,P4,No action required
+INC100374,2026-08-09 21:02,UNIX disk /var > 80%,unix-app-01,P4,Resolved - workaround
+INC100375,2026-08-09 21:11,Batch job late (informational),batch-sched-03,P4,False positive
+INC100376,2026-08-09 23:20,UNIX disk /var > 80%,unix-app-04,P4,Duplicate
+INC100377,2026-08-10 00:19,SNMP interface flap,sw-core-02,P4,False positive
+INC100378,2026-08-10 00:40,SNMP interface flap,sw-core-03,P4,False positive
+INC100379,2026-08-10 01:24,Batch job late (informational),batch-sched-02,P4,Auto-cleared
+INC100380,2026-08-10 01:40,Batch job late (informational),batch-sched-03,P4,Auto-cleared
+INC100381,2026-08-10 05:05,UNIX disk /var > 80%,unix-app-04,P4,Auto-cleared
+INC100382,2026-08-10 09:13,UNIX disk /var > 80%,unix-app-01,P4,Duplicate
+INC100383,2026-08-10 09:48,SNMP interface flap,sw-core-03,P4,Auto-cleared
+INC100384,2026-08-10 15:29,UNIX disk /var > 80%,unix-app-03,P4,Duplicate
+INC100385,2026-08-10 15:40,Backup job failed,bkp-02,P3,Auto-cleared
+INC100386,2026-08-10 19:59,SNMP interface flap,sw-core-01,P4,No action required
+INC100387,2026-08-10 21:18,UNIX disk /var > 80%,unix-app-02,P4,No action required
+INC100388,2026-08-10 21:33,SNMP interface flap,sw-core-04,P4,Auto-cleared
+INC100389,2026-08-10 22:59,SNMP interface flap,sw-core-02,P4,Duplicate
+INC100390,2026-08-11 00:10,SNMP interface flap,sw-core-01,P4,Duplicate
+INC100391,2026-08-11 03:25,SNMP interface flap,sw-core-03,P4,No action required
+INC100392,2026-08-11 06:24,Batch job late (informational),batch-sched-03,P4,No action required
+INC100393,2026-08-11 06:46,SNMP interface flap,sw-core-02,P4,No action required
+INC100394,2026-08-11 07:00,SNMP interface flap,sw-core-03,P4,Duplicate
+INC100395,2026-08-11 09:18,UNIX disk /var > 80%,unix-app-03,P4,False positive
+INC100396,2026-08-11 09:29,SNMP interface flap,sw-core-04,P4,Duplicate
+INC100397,2026-08-11 10:52,UNIX disk /var > 80%,unix-app-04,P4,Auto-cleared
+INC100398,2026-08-11 13:16,Batch job late (informational),batch-sched-02,P4,False positive
+INC100399,2026-08-11 13:51,UNIX disk /var > 80%,unix-app-02,P4,False positive
+INC100400,2026-08-11 13:53,Windows CPU > 90% 5 min,win-web-03,P3,False positive
+INC100401,2026-08-11 16:12,Batch job late (informational),batch-sched-01,P4,Duplicate
+INC100402,2026-08-11 16:36,SNMP interface flap,sw-core-01,P4,No action required
+INC100403,2026-08-11 17:08,UNIX disk /var > 80%,unix-app-01,P4,No action required
+INC100404,2026-08-11 22:41,Windows CPU > 90% 5 min,win-web-02,P3,Duplicate
+INC100405,2026-08-11 23:23,UNIX disk /var > 80%,unix-app-03,P4,False positive
+INC100406,2026-08-12 01:49,UNIX disk /var > 80%,unix-app-03,P4,Auto-cleared
+INC100407,2026-08-12 02:48,SNMP interface flap,sw-core-04,P4,No action required
+INC100408,2026-08-12 04:11,Service stopped: IIS W3SVC,win-web-01,P2,Resolved - fixed
+INC100409,2026-08-12 05:27,Batch job late (informational),batch-sched-02,P4,False positive
+INC100410,2026-08-12 07:31,UNIX disk /var > 80%,unix-app-03,P4,Duplicate
+INC100411,2026-08-12 07:52,UNIX disk /var > 80%,unix-app-02,P4,Duplicate
+INC100412,2026-08-12 18:45,UNIX disk /var > 80%,unix-app-03,P4,Duplicate
+INC100413,2026-08-12 22:35,Batch job late (informational),batch-sched-02,P4,Auto-cleared
+INC100414,2026-08-13 01:51,UNIX disk /var > 80%,unix-app-04,P4,Duplicate
+INC100415,2026-08-13 08:22,SNMP interface flap,sw-core-01,P4,Duplicate
+INC100416,2026-08-13 09:58,UNIX disk /var > 80%,unix-app-03,P4,Duplicate
+INC100417,2026-08-13 13:46,UNIX disk /var > 80%,unix-app-01,P4,Auto-cleared
+INC100418,2026-08-13 14:21,SNMP interface flap,sw-core-01,P4,False positive
+INC100419,2026-08-13 15:15,Windows CPU > 90% 5 min,win-web-03,P3,Duplicate
+INC100420,2026-08-13 16:08,Windows CPU > 90% 5 min,win-web-03,P3,Duplicate
+INC100421,2026-08-13 23:00,SNMP interface flap,sw-core-03,P4,False positive
+INC100422,2026-08-14 01:49,Batch job late (informational),batch-sched-03,P4,Duplicate
+INC100423,2026-08-14 09:04,UNIX disk /var > 80%,unix-app-03,P4,Duplicate
+INC100424,2026-08-14 10:33,UNIX disk /var > 80%,unix-app-04,P4,False positive
+INC100425,2026-08-14 11:22,UNIX disk /var > 80%,unix-app-03,P4,Duplicate
+INC100426,2026-08-14 12:26,Backup job failed,bkp-01,P3,Resolved - workaround
+INC100427,2026-08-14 13:38,Batch job late (informational),batch-sched-03,P4,Auto-cleared
+INC100428,2026-08-14 15:00,SNMP interface flap,sw-core-01,P4,False positive
+INC100429,2026-08-14 18:51,Mainframe link down,mf-gw-03,P1,Resolved - fixed
+INC100430,2026-08-14 20:09,SNMP interface flap,sw-core-02,P4,Auto-cleared
+INC100431,2026-08-14 21:09,Backup job failed,bkp-04,P3,Resolved - workaround
+INC100432,2026-08-14 23:59,UNIX disk /var > 80%,unix-app-01,P4,Auto-cleared
+INC100433,2026-08-15 03:48,Datastore > 90%,esxi-ds-02,P3,False positive
+INC100434,2026-08-15 03:51,Batch job late (informational),batch-sched-01,P4,Duplicate
+INC100435,2026-08-15 04:25,Batch job late (informational),batch-sched-03,P4,Escalated to L2
+INC100436,2026-08-15 07:10,UNIX disk /var > 80%,unix-app-02,P4,Resolved - fixed
+INC100437,2026-08-15 09:50,Datastore > 90%,esxi-ds-04,P3,Escalated to L2
+INC100438,2026-08-15 11:24,Batch job late (informational),batch-sched-03,P4,Auto-cleared
+INC100439,2026-08-15 11:57,Batch job late (informational),batch-sched-01,P4,Duplicate
+INC100440,2026-08-15 13:59,Batch job late (informational),batch-sched-01,P4,Duplicate
+INC100441,2026-08-15 16:14,Windows CPU > 90% 5 min,win-web-01,P3,Resolved - workaround
+INC100442,2026-08-15 16:43,Batch job late (informational),batch-sched-02,P4,No action required
+INC100443,2026-08-15 18:29,UNIX disk /var > 80%,unix-app-02,P4,Escalated to L2
+INC100444,2026-08-15 20:46,Windows CPU > 90% 5 min,win-web-03,P3,Resolved - fixed
+INC100445,2026-08-15 22:12,SNMP interface flap,sw-core-02,P4,No action required
+INC100446,2026-08-16 00:47,Windows CPU > 90% 5 min,win-web-04,P3,No action required
+INC100447,2026-08-16 01:17,UNIX disk /var > 80%,unix-app-04,P4,No action required
+INC100448,2026-08-16 04:14,Windows CPU > 90% 5 min,win-web-04,P3,Escalated to L2
+INC100449,2026-08-16 04:17,SNMP interface flap,sw-core-04,P4,False positive
+INC100450,2026-08-16 06:48,SNMP interface flap,sw-core-03,P4,Duplicate
+INC100451,2026-08-16 07:23,SNMP interface flap,sw-core-02,P4,Auto-cleared
+INC100452,2026-08-16 17:40,Service stopped: IIS W3SVC,win-web-03,P2,Duplicate
+INC100453,2026-08-16 19:11,UNIX disk /var > 80%,unix-app-02,P4,False positive
+INC100454,2026-08-16 21:38,Windows CPU > 90% 5 min,win-web-01,P3,False positive
+INC100455,2026-08-16 22:22,Batch job late (informational),batch-sched-04,P4,Duplicate
+INC100456,2026-08-17 03:01,SNMP interface flap,sw-core-03,P4,No action required
+INC100457,2026-08-17 03:02,Batch job late (informational),batch-sched-04,P4,Auto-cleared
+INC100458,2026-08-17 03:48,SNMP interface flap,sw-core-02,P4,Auto-cleared
+INC100459,2026-08-17 05:41,UNIX disk /var > 80%,unix-app-02,P4,Duplicate
+INC100460,2026-08-17 06:29,Windows CPU > 90% 5 min,win-web-03,P3,Auto-cleared
+INC100461,2026-08-17 06:44,Batch job late (informational),batch-sched-01,P4,No action required
+INC100462,2026-08-17 10:23,Batch job late (informational),batch-sched-01,P4,False positive
+INC100463,2026-08-17 16:34,Windows CPU > 90% 5 min,win-web-01,P3,No action required
+INC100464,2026-08-17 17:12,Windows CPU > 90% 5 min,win-web-02,P3,False positive
+INC100465,2026-08-17 20:23,SNMP interface flap,sw-core-01,P4,False positive
+INC100466,2026-08-18 00:43,UNIX disk /var > 80%,unix-app-02,P4,False positive
+INC100467,2026-08-18 01:48,Windows CPU > 90% 5 min,win-web-01,P3,No action required
+INC100468,2026-08-18 02:03,Batch job late (informational),batch-sched-03,P4,No action required
+INC100469,2026-08-18 03:52,UNIX disk /var > 80%,unix-app-01,P4,No action required
+INC100470,2026-08-18 07:07,SNMP interface flap,sw-core-03,P4,Duplicate
+INC100471,2026-08-18 08:21,UNIX disk /var > 80%,unix-app-02,P4,Auto-cleared
+INC100472,2026-08-18 11:47,UNIX disk /var > 80%,unix-app-01,P4,Duplicate
+INC100473,2026-08-18 13:51,Datastore > 90%,esxi-ds-01,P3,Escalated to L2
+INC100474,2026-08-18 14:33,SNMP interface flap,sw-core-02,P4,False positive
+INC100475,2026-08-18 15:20,Batch job late (informational),batch-sched-01,P4,False positive
+INC100476,2026-08-18 17:03,Windows CPU > 90% 5 min,win-web-02,P3,No action required
+INC100477,2026-08-18 19:24,UNIX disk /var > 80%,unix-app-01,P4,False positive
+INC100478,2026-08-18 19:45,Batch job late (informational),batch-sched-03,P4,No action required
+INC100479,2026-08-18 20:25,Windows CPU > 90% 5 min,win-web-04,P3,No action required
+INC100480,2026-08-18 22:28,UNIX disk /var > 80%,unix-app-02,P4,Duplicate
+INC100481,2026-08-19 01:58,UNIX disk /var > 80%,unix-app-02,P4,False positive
+INC100482,2026-08-19 03:07,Windows CPU > 90% 5 min,win-web-02,P3,No action required
+INC100483,2026-08-19 07:01,Mainframe link down,mf-gw-01,P1,Escalated to L2
+INC100484,2026-08-19 13:31,Datastore > 90%,esxi-ds-03,P3,Resolved - workaround
+INC100485,2026-08-19 15:36,SNMP interface flap,sw-core-01,P4,No action required
+INC100486,2026-08-19 19:37,Batch job late (informational),batch-sched-03,P4,False positive
+INC100487,2026-08-20 05:39,Batch job late (informational),batch-sched-04,P4,False positive
+INC100488,2026-08-20 05:40,UNIX disk /var > 80%,unix-app-04,P4,False positive
+INC100489,2026-08-20 05:57,UNIX disk /var > 80%,unix-app-02,P4,Duplicate
+INC100490,2026-08-20 08:32,Windows CPU > 90% 5 min,win-web-04,P3,False positive
+INC100491,2026-08-20 10:16,SNMP interface flap,sw-core-02,P4,False positive
+INC100492,2026-08-20 11:07,UNIX disk /var > 80%,unix-app-04,P4,False positive
+INC100493,2026-08-20 11:24,SNMP interface flap,sw-core-01,P4,Escalated to L2
+INC100494,2026-08-20 14:08,UNIX disk /var > 80%,unix-app-01,P4,Auto-cleared
+INC100495,2026-08-20 15:24,SNMP interface flap,sw-core-01,P4,Duplicate
+INC100496,2026-08-20 17:24,Windows CPU > 90% 5 min,win-web-02,P3,False positive
+INC100497,2026-08-20 17:40,UNIX disk /var > 80%,unix-app-04,P4,No action required
+INC100498,2026-08-20 18:36,Windows CPU > 90% 5 min,win-web-02,P3,Resolved - fixed
+INC100499,2026-08-20 19:09,Windows CPU > 90% 5 min,win-web-03,P3,Duplicate
+INC100500,2026-08-20 20:59,SNMP interface flap,sw-core-02,P4,Duplicate
+INC100501,2026-08-21 13:57,Batch job late (informational),batch-sched-03,P4,False positive
+INC100502,2026-08-21 18:11,UNIX disk /var > 80%,unix-app-02,P4,No action required
+INC100503,2026-08-21 20:43,Windows CPU > 90% 5 min,win-web-03,P3,Resolved - workaround
+INC100504,2026-08-21 22:38,SNMP interface flap,sw-core-03,P4,No action required
+INC100505,2026-08-22 01:06,UNIX disk /var > 80%,unix-app-01,P4,False positive
+INC100506,2026-08-22 03:05,Windows CPU > 90% 5 min,win-web-03,P3,Auto-cleared
+INC100507,2026-08-22 03:06,Batch job late (informational),batch-sched-01,P4,Duplicate
+INC100508,2026-08-22 06:08,SNMP interface flap,sw-core-01,P4,False positive
+INC100509,2026-08-22 09:45,SNMP interface flap,sw-core-04,P4,False positive
+INC100510,2026-08-22 09:50,UNIX disk /var > 80%,unix-app-04,P4,False positive
+INC100511,2026-08-22 10:49,UNIX disk /var > 80%,unix-app-04,P4,Auto-cleared
+INC100512,2026-08-22 12:31,UNIX disk /var > 80%,unix-app-02,P4,No action required
+INC100513,2026-08-22 13:30,Windows CPU > 90% 5 min,win-web-02,P3,Duplicate
+INC100514,2026-08-22 16:40,UNIX disk /var > 80%,unix-app-04,P4,No action required
+INC100515,2026-08-22 20:19,UNIX disk /var > 80%,unix-app-01,P4,Resolved - workaround
+INC100516,2026-08-22 20:42,Service stopped: IIS W3SVC,win-web-04,P2,Auto-cleared
+INC100517,2026-08-23 00:06,Service stopped: IIS W3SVC,win-web-01,P2,Resolved - fixed
+INC100518,2026-08-23 03:07,Windows CPU > 90% 5 min,win-web-04,P3,No action required
+INC100519,2026-08-23 06:40,UNIX disk /var > 80%,unix-app-01,P4,False positive
+INC100520,2026-08-23 08:10,Datastore > 90%,esxi-ds-03,P3,Duplicate
+INC100521,2026-08-23 11:06,Batch job late (informational),batch-sched-02,P4,Duplicate
+INC100522,2026-08-23 13:10,UNIX disk /var > 80%,unix-app-01,P4,Auto-cleared
+INC100523,2026-08-23 15:56,Batch job late (informational),batch-sched-04,P4,Duplicate
+INC100524,2026-08-23 17:57,UNIX disk /var > 80%,unix-app-01,P4,No action required
+INC100525,2026-08-23 20:49,SNMP interface flap,sw-core-02,P4,Resolved - fixed
+INC100526,2026-08-23 21:41,Batch job late (informational),batch-sched-02,P4,No action required
+INC100527,2026-08-24 01:40,Backup job failed,bkp-01,P3,Resolved - workaround
+INC100528,2026-08-24 06:52,UNIX disk /var > 80%,unix-app-04,P4,False positive
+INC100529,2026-08-24 07:51,Batch job late (informational),batch-sched-03,P4,Duplicate
+INC100530,2026-08-24 08:00,Batch job late (informational),batch-sched-04,P4,Duplicate
+INC100531,2026-08-24 08:25,Datastore > 90%,esxi-ds-01,P3,Duplicate
+INC100532,2026-08-24 09:01,SNMP interface flap,sw-core-04,P4,False positive
+INC100533,2026-08-24 09:52,Windows CPU > 90% 5 min,win-web-02,P3,No action required
+INC100534,2026-08-24 20:06,Windows CPU > 90% 5 min,win-web-01,P3,No action required
+INC100535,2026-08-24 20:26,SNMP interface flap,sw-core-04,P4,Auto-cleared
+INC100536,2026-08-24 22:49,UNIX disk /var > 80%,unix-app-02,P4,No action required
+INC100537,2026-08-24 22:51,UNIX disk /var > 80%,unix-app-04,P4,No action required
+INC100538,2026-08-25 01:39,SNMP interface flap,sw-core-01,P4,Auto-cleared
+INC100539,2026-08-25 02:00,Batch job late (informational),batch-sched-03,P4,False positive
+INC100540,2026-08-25 03:35,UNIX disk /var > 80%,unix-app-02,P4,No action required
+INC100541,2026-08-25 06:09,SNMP interface flap,sw-core-02,P4,Auto-cleared
+INC100542,2026-08-25 06:10,SNMP interface flap,sw-core-02,P4,Duplicate
+INC100543,2026-08-25 10:22,SNMP interface flap,sw-core-03,P4,Escalated to L2
+INC100544,2026-08-25 10:40,UNIX disk /var > 80%,unix-app-02,P4,Auto-cleared
+INC100545,2026-08-25 12:43,Windows CPU > 90% 5 min,win-web-03,P3,Auto-cleared
+INC100546,2026-08-25 13:51,SNMP interface flap,sw-core-02,P4,False positive
+INC100547,2026-08-25 15:25,Batch job late (informational),batch-sched-03,P4,No action required
+INC100548,2026-08-25 16:13,UNIX disk /var > 80%,unix-app-01,P4,Escalated to L2
+INC100549,2026-08-25 16:39,SNMP interface flap,sw-core-02,P4,False positive
+INC100550,2026-08-25 16:49,SNMP interface flap,sw-core-03,P4,No action required
+INC100551,2026-08-25 18:21,UNIX disk /var > 80%,unix-app-04,P4,False positive
+INC100552,2026-08-25 21:32,Datastore > 90%,esxi-ds-03,P3,Resolved - fixed
+INC100553,2026-08-25 22:40,Windows CPU > 90% 5 min,win-web-04,P3,Auto-cleared
+INC100554,2026-08-26 00:54,SNMP interface flap,sw-core-01,P4,Duplicate
+INC100555,2026-08-26 02:45,Windows CPU > 90% 5 min,win-web-03,P3,Duplicate
+INC100556,2026-08-26 04:51,UNIX disk /var > 80%,unix-app-02,P4,Duplicate
+INC100557,2026-08-26 12:21,SNMP interface flap,sw-core-01,P4,Auto-cleared
+INC100558,2026-08-26 17:31,UNIX disk /var > 80%,unix-app-03,P4,No action required
+INC100559,2026-08-26 21:22,SNMP interface flap,sw-core-02,P4,No action required
+INC100560,2026-08-26 22:13,UNIX disk /var > 80%,unix-app-02,P4,No action required
+INC100561,2026-08-26 22:27,UNIX disk /var > 80%,unix-app-02,P4,No action required
+INC100562,2026-08-26 23:30,Windows CPU > 90% 5 min,win-web-01,P3,False positive
+INC100563,2026-08-27 01:09,UNIX disk /var > 80%,unix-app-01,P4,False positive
+INC100564,2026-08-27 01:15,UNIX disk /var > 80%,unix-app-01,P4,False positive
+INC100565,2026-08-27 05:08,Batch job late (informational),batch-sched-04,P4,False positive
+INC100566,2026-08-27 12:02,SNMP interface flap,sw-core-01,P4,Auto-cleared
+INC100567,2026-08-27 12:31,SNMP interface flap,sw-core-02,P4,Auto-cleared
+INC100568,2026-08-27 17:36,UNIX disk /var > 80%,unix-app-01,P4,Duplicate
+INC100569,2026-08-27 20:27,UNIX disk /var > 80%,unix-app-02,P4,Resolved - workaround
+INC100570,2026-08-28 02:08,Backup job failed,bkp-04,P3,Resolved - fixed
+INC100571,2026-08-28 03:17,Windows CPU > 90% 5 min,win-web-03,P3,Resolved - workaround
+INC100572,2026-08-28 04:50,UNIX disk /var > 80%,unix-app-02,P4,Duplicate
+INC100573,2026-08-28 05:19,Datastore > 90%,esxi-ds-02,P3,Resolved - workaround
+INC100574,2026-08-28 07:08,Batch job late (informational),batch-sched-01,P4,False positive
+INC100575,2026-08-28 09:20,UNIX disk /var > 80%,unix-app-01,P4,Duplicate
+INC100576,2026-08-28 10:10,Backup job failed,bkp-03,P3,Resolved - fixed
+INC100577,2026-08-28 12:06,UNIX disk /var > 80%,unix-app-02,P4,False positive
+INC100578,2026-08-28 16:11,Batch job late (informational),batch-sched-01,P4,Duplicate
+INC100579,2026-08-28 16:17,SNMP interface flap,sw-core-04,P4,No action required
+INC100580,2026-08-28 21:23,Batch job late (informational),batch-sched-03,P4,False positive
+INC100581,2026-08-29 00:12,Windows CPU > 90% 5 min,win-web-01,P3,Auto-cleared
+INC100582,2026-08-29 05:07,Windows CPU > 90% 5 min,win-web-03,P3,Duplicate
+INC100583,2026-08-29 10:15,Windows CPU > 90% 5 min,win-web-04,P3,Resolved - workaround
+INC100584,2026-08-29 11:59,Windows CPU > 90% 5 min,win-web-01,P3,Auto-cleared
+INC100585,2026-08-29 13:58,Batch job late (informational),batch-sched-03,P4,No action required
+INC100586,2026-08-29 15:49,UNIX disk /var > 80%,unix-app-02,P4,False positive
+INC100587,2026-08-29 15:55,Batch job late (informational),batch-sched-01,P4,No action required
+INC100588,2026-08-29 18:39,SNMP interface flap,sw-core-03,P4,No action required
+INC100589,2026-08-29 20:03,UNIX disk /var > 80%,unix-app-03,P4,Duplicate
+INC100590,2026-08-29 22:52,Batch job late (informational),batch-sched-04,P4,False positive
+INC100591,2026-08-29 23:01,SNMP interface flap,sw-core-01,P4,Duplicate
+INC100592,2026-08-29 23:16,UNIX disk /var > 80%,unix-app-01,P4,Duplicate
+INC100593,2026-08-30 00:13,Batch job late (informational),batch-sched-04,P4,No action required
+INC100594,2026-08-30 03:05,Backup job failed,bkp-01,P3,Resolved - fixed
+INC100595,2026-08-30 06:00,SNMP interface flap,sw-core-04,P4,Auto-cleared
+INC100596,2026-08-30 06:39,Windows CPU > 90% 5 min,win-web-03,P3,False positive
+INC100597,2026-08-30 07:07,Service stopped: IIS W3SVC,win-web-03,P2,Resolved - fixed
+INC100598,2026-08-30 09:11,UNIX disk /var > 80%,unix-app-03,P4,Duplicate
+INC100599,2026-08-30 11:38,Batch job late (informational),batch-sched-01,P4,Auto-cleared
+INC100600,2026-08-30 12:57,SNMP interface flap,sw-core-04,P4,Auto-cleared
+INC100601,2026-08-30 15:04,Batch job late (informational),batch-sched-01,P4,Auto-cleared
+INC100602,2026-08-30 16:44,UNIX disk /var > 80%,unix-app-03,P4,False positive
+INC100603,2026-08-30 16:50,UNIX disk /var > 80%,unix-app-03,P4,False positive
+INC100604,2026-08-30 18:48,Windows CPU > 90% 5 min,win-web-02,P3,Duplicate
+INC100605,2026-08-30 18:58,UNIX disk /var > 80%,unix-app-01,P4,Duplicate
+INC100606,2026-08-30 23:53,SNMP interface flap,sw-core-04,P4,No action required
+INC100607,2026-08-30 23:55,UNIX disk /var > 80%,unix-app-03,P4,Auto-cleared
+INC100608,2026-08-31 01:10,Batch job late (informational),batch-sched-04,P4,Duplicate
+INC100609,2026-08-31 02:13,SNMP interface flap,sw-core-02,P4,Duplicate
+INC100610,2026-08-31 10:12,SNMP interface flap,sw-core-03,P4,No action required
+INC100611,2026-08-31 12:27,Windows CPU > 90% 5 min,win-web-03,P3,Escalated to L2
+INC100612,2026-08-31 15:37,UNIX disk /var > 80%,unix-app-03,P4,Auto-cleared
+INC100613,2026-08-31 16:15,UNIX disk /var > 80%,unix-app-04,P4,No action required
+INC100614,2026-08-31 19:26,SNMP interface flap,sw-core-03,P4,Duplicate
+INC100615,2026-09-01 01:13,Batch job late (informational),batch-sched-04,P4,No action required
+INC100616,2026-09-01 01:13,UNIX disk /var > 80%,unix-app-03,P4,Resolved - workaround
+INC100617,2026-09-01 07:44,Batch job late (informational),batch-sched-04,P4,False positive
+INC100618,2026-09-01 09:05,Batch job late (informational),batch-sched-03,P4,Auto-cleared
+INC100619,2026-09-01 13:51,UNIX disk /var > 80%,unix-app-04,P4,Duplicate
+INC100620,2026-09-01 16:15,Batch job late (informational),batch-sched-02,P4,Duplicate
+INC100621,2026-09-01 19:56,SNMP interface flap,sw-core-04,P4,False positive
+INC100622,2026-09-01 20:00,UNIX disk /var > 80%,unix-app-02,P4,Duplicate
+INC100623,2026-09-01 20:39,UNIX disk /var > 80%,unix-app-04,P4,False positive
+INC100624,2026-09-02 02:15,Backup job failed,bkp-01,P3,Duplicate
+INC100625,2026-09-02 04:08,Batch job late (informational),batch-sched-02,P4,No action required
+INC100626,2026-09-02 07:33,Batch job late (informational),batch-sched-04,P4,No action required
+INC100627,2026-09-02 07:37,Windows CPU > 90% 5 min,win-web-04,P3,Auto-cleared
+INC100628,2026-09-02 09:06,Windows CPU > 90% 5 min,win-web-03,P3,Auto-cleared
+INC100629,2026-09-02 11:31,UNIX disk /var > 80%,unix-app-04,P4,Escalated to L2
+INC100630,2026-09-02 13:06,UNIX disk /var > 80%,unix-app-02,P4,Duplicate
+INC100631,2026-09-02 14:16,Batch job late (informational),batch-sched-01,P4,Auto-cleared
+INC100632,2026-09-02 19:01,Service stopped: IIS W3SVC,win-web-01,P2,Resolved - workaround
+INC100633,2026-09-02 21:07,Batch job late (informational),batch-sched-03,P4,Auto-cleared
+INC100634,2026-09-02 21:24,Windows CPU > 90% 5 min,win-web-02,P3,False positive
+INC100635,2026-09-03 03:09,UNIX disk /var > 80%,unix-app-03,P4,Auto-cleared
+INC100636,2026-09-03 03:52,Windows CPU > 90% 5 min,win-web-03,P3,False positive
+INC100637,2026-09-03 05:47,Windows CPU > 90% 5 min,win-web-03,P3,Auto-cleared
+INC100638,2026-09-03 09:49,SNMP interface flap,sw-core-02,P4,False positive
+INC100639,2026-09-03 12:15,Windows CPU > 90% 5 min,win-web-01,P3,False positive
+INC100640,2026-09-03 12:21,UNIX disk /var > 80%,unix-app-03,P4,Auto-cleared
+INC100641,2026-09-03 14:00,SNMP interface flap,sw-core-03,P4,Duplicate
+INC100642,2026-09-03 22:45,UNIX disk /var > 80%,unix-app-03,P4,Duplicate
+INC100643,2026-09-04 04:10,UNIX disk /var > 80%,unix-app-02,P4,False positive
+INC100644,2026-09-04 04:13,SNMP interface flap,sw-core-01,P4,False positive
+INC100645,2026-09-04 06:07,Windows CPU > 90% 5 min,win-web-04,P3,No action required
+INC100646,2026-09-04 13:46,Backup job failed,bkp-04,P3,False positive
+INC100647,2026-09-04 15:40,UNIX disk /var > 80%,unix-app-02,P4,No action required
+INC100648,2026-09-04 15:55,Windows CPU > 90% 5 min,win-web-02,P3,False positive
+INC100649,2026-09-04 16:21,SNMP interface flap,sw-core-01,P4,No action required
+INC100650,2026-09-04 20:01,Windows CPU > 90% 5 min,win-web-01,P3,Duplicate
+INC100651,2026-09-04 22:52,UNIX disk /var > 80%,unix-app-01,P4,Duplicate
+INC100652,2026-09-04 23:26,Batch job late (informational),batch-sched-02,P4,Auto-cleared
+INC100653,2026-09-05 04:20,SNMP interface flap,sw-core-02,P4,False positive
+INC100654,2026-09-05 04:59,SNMP interface flap,sw-core-02,P4,Escalated to L2
+INC100655,2026-09-05 06:01,Windows CPU > 90% 5 min,win-web-01,P3,Resolved - fixed
+INC100656,2026-09-05 09:51,SNMP interface flap,sw-core-03,P4,False positive
+INC100657,2026-09-05 12:44,Batch job late (informational),batch-sched-03,P4,Escalated to L2
+INC100658,2026-09-05 14:52,UNIX disk /var > 80%,unix-app-02,P4,No action required
+INC100659,2026-09-05 15:02,Backup job failed,bkp-03,P3,No action required
+INC100660,2026-09-05 16:05,Batch job late (informational),batch-sched-02,P4,Auto-cleared
+INC100661,2026-09-05 16:21,Backup job failed,bkp-04,P3,Resolved - fixed
+INC100662,2026-09-05 19:53,SNMP interface flap,sw-core-04,P4,Resolved - workaround
+INC100663,2026-09-06 01:09,Windows CPU > 90% 5 min,win-web-02,P3,Duplicate
+INC100664,2026-09-06 02:50,Batch job late (informational),batch-sched-04,P4,Auto-cleared
+INC100665,2026-09-06 07:48,Batch job late (informational),batch-sched-01,P4,Duplicate
+INC100666,2026-09-06 09:44,Windows CPU > 90% 5 min,win-web-02,P3,False positive
+INC100667,2026-09-06 12:18,SNMP interface flap,sw-core-01,P4,No action required
+INC100668,2026-09-06 15:46,SNMP interface flap,sw-core-03,P4,False positive
+INC100669,2026-09-06 21:14,Windows CPU > 90% 5 min,win-web-01,P3,No action required
+INC100670,2026-09-06 21:31,UNIX disk /var > 80%,unix-app-04,P4,Duplicate
+INC100671,2026-09-06 21:54,SNMP interface flap,sw-core-04,P4,False positive
+INC100672,2026-09-06 22:53,SNMP interface flap,sw-core-04,P4,No action required
+INC100673,2026-09-06 23:20,UNIX disk /var > 80%,unix-app-01,P4,No action required
+INC100674,2026-09-07 01:58,UNIX disk /var > 80%,unix-app-04,P4,No action required
+INC100675,2026-09-07 10:47,UNIX disk /var > 80%,unix-app-03,P4,Resolved - workaround
+INC100676,2026-09-07 13:35,SNMP interface flap,sw-core-03,P4,Duplicate
+INC100677,2026-09-07 13:59,UNIX disk /var > 80%,unix-app-02,P4,False positive
+INC100678,2026-09-07 15:38,UNIX disk /var > 80%,unix-app-02,P4,Auto-cleared
+INC100679,2026-09-07 16:06,SNMP interface flap,sw-core-03,P4,False positive
+INC100680,2026-09-07 17:11,SNMP interface flap,sw-core-04,P4,Duplicate
+INC100681,2026-09-08 04:15,Batch job late (informational),batch-sched-04,P4,Auto-cleared
+INC100682,2026-09-08 07:27,Batch job late (informational),batch-sched-04,P4,False positive
+INC100683,2026-09-08 07:48,Windows CPU > 90% 5 min,win-web-03,P3,Resolved - fixed
+INC100684,2026-09-08 08:18,Windows CPU > 90% 5 min,win-web-04,P3,No action required
+INC100685,2026-09-08 11:03,Windows CPU > 90% 5 min,win-web-04,P3,False positive
+INC100686,2026-09-08 12:40,Windows CPU > 90% 5 min,win-web-04,P3,No action required
+INC100687,2026-09-08 13:05,Datastore > 90%,esxi-ds-04,P3,Resolved - fixed
+INC100688,2026-09-08 13:20,SNMP interface flap,sw-core-01,P4,Duplicate
+INC100689,2026-09-08 13:43,Windows CPU > 90% 5 min,win-web-02,P3,Auto-cleared
+INC100690,2026-09-08 13:51,Windows CPU > 90% 5 min,win-web-02,P3,No action required
+INC100691,2026-09-08 19:11,Datastore > 90%,esxi-ds-02,P3,Resolved - fixed
+INC100692,2026-09-08 19:26,SNMP interface flap,sw-core-04,P4,No action required
+INC100693,2026-09-09 00:51,SNMP interface flap,sw-core-04,P4,False positive
+INC100694,2026-09-09 05:12,Batch job late (informational),batch-sched-04,P4,Duplicate
+INC100695,2026-09-09 05:22,SNMP interface flap,sw-core-02,P4,Duplicate
+INC100696,2026-09-09 06:49,Batch job late (informational),batch-sched-01,P4,Auto-cleared
+INC100697,2026-09-09 12:56,SNMP interface flap,sw-core-02,P4,False positive
+INC100698,2026-09-09 14:31,UNIX disk /var > 80%,unix-app-04,P4,False positive
+INC100699,2026-09-10 05:08,UNIX disk /var > 80%,unix-app-02,P4,Escalated to L2
+INC100700,2026-09-10 10:01,UNIX disk /var > 80%,unix-app-02,P4,False positive
+INC100701,2026-09-10 14:46,SNMP interface flap,sw-core-02,P4,Auto-cleared
+INC100702,2026-09-10 18:32,SNMP interface flap,sw-core-01,P4,Auto-cleared
+INC100703,2026-09-10 18:44,SNMP interface flap,sw-core-02,P4,Duplicate
+INC100704,2026-09-10 18:49,SNMP interface flap,sw-core-03,P4,No action required
+INC100705,2026-09-10 23:16,SNMP interface flap,sw-core-01,P4,Duplicate
+INC100706,2026-09-10 23:21,Batch job late (informational),batch-sched-01,P4,Escalated to L2
+INC100707,2026-09-11 00:47,SNMP interface flap,sw-core-03,P4,No action required
+INC100708,2026-09-11 01:48,Datastore > 90%,esxi-ds-03,P3,Resolved - workaround
+INC100709,2026-09-11 04:11,UNIX disk /var > 80%,unix-app-02,P4,Duplicate
+INC100710,2026-09-11 05:56,UNIX disk /var > 80%,unix-app-02,P4,Escalated to L2
+INC100711,2026-09-11 11:23,UNIX disk /var > 80%,unix-app-03,P4,Resolved - fixed
+INC100712,2026-09-11 11:36,SNMP interface flap,sw-core-03,P4,No action required
+INC100713,2026-09-11 16:22,SNMP interface flap,sw-core-02,P4,No action required
+INC100714,2026-09-11 18:32,Batch job late (informational),batch-sched-03,P4,Auto-cleared
+INC100715,2026-09-12 07:30,Batch job late (informational),batch-sched-03,P4,Duplicate
+INC100716,2026-09-12 14:31,Datastore > 90%,esxi-ds-03,P3,Escalated to L2
+INC100717,2026-09-12 14:36,Windows CPU > 90% 5 min,win-web-04,P3,Auto-cleared
+INC100718,2026-09-12 14:52,Windows CPU > 90% 5 min,win-web-04,P3,Auto-cleared
+INC100719,2026-09-12 15:56,Service stopped: IIS W3SVC,win-web-01,P2,Resolved - workaround
+INC100720,2026-09-12 16:19,Windows CPU > 90% 5 min,win-web-02,P3,No action required
+INC100721,2026-09-12 18:35,SNMP interface flap,sw-core-03,P4,Duplicate
+INC100722,2026-09-12 19:00,Batch job late (informational),batch-sched-04,P4,Duplicate
+INC100723,2026-09-13 00:08,SNMP interface flap,sw-core-02,P4,Duplicate
+INC100724,2026-09-13 01:15,UNIX disk /var > 80%,unix-app-04,P4,No action required
+INC100725,2026-09-13 04:51,Batch job late (informational),batch-sched-04,P4,False positive
+INC100726,2026-09-13 05:16,SNMP interface flap,sw-core-01,P4,Duplicate
+INC100727,2026-09-13 11:46,Windows CPU > 90% 5 min,win-web-03,P3,Auto-cleared
+INC100728,2026-09-13 11:52,UNIX disk /var > 80%,unix-app-03,P4,Resolved - fixed
+INC100729,2026-09-13 15:30,Service stopped: IIS W3SVC,win-web-04,P2,Resolved - fixed
+INC100730,2026-09-13 18:56,Backup job failed,bkp-03,P3,Escalated to L2
+INC100731,2026-09-13 18:56,Windows CPU > 90% 5 min,win-web-01,P3,No action required
+INC100732,2026-09-13 19:15,UNIX disk /var > 80%,unix-app-04,P4,Duplicate
+INC100733,2026-09-13 19:56,UNIX disk /var > 80%,unix-app-01,P4,False positive
+INC100734,2026-09-13 20:24,UNIX disk /var > 80%,unix-app-03,P4,False positive
+INC100735,2026-09-13 20:35,SNMP interface flap,sw-core-01,P4,Duplicate
+INC100736,2026-09-13 22:39,Windows CPU > 90% 5 min,win-web-03,P3,False positive
+INC100737,2026-09-14 02:45,SNMP interface flap,sw-core-01,P4,No action required
+INC100738,2026-09-14 14:00,SNMP interface flap,sw-core-04,P4,False positive
+INC100739,2026-09-14 14:11,SNMP interface flap,sw-core-03,P4,False positive
+INC100740,2026-09-14 15:57,Batch job late (informational),batch-sched-04,P4,False positive
+INC100741,2026-09-14 18:54,UNIX disk /var > 80%,unix-app-03,P4,Auto-cleared
+INC100742,2026-09-14 19:21,SNMP interface flap,sw-core-02,P4,Duplicate
+INC100743,2026-09-14 23:12,UNIX disk /var > 80%,unix-app-04,P4,Auto-cleared
+INC100744,2026-09-14 23:28,UNIX disk /var > 80%,unix-app-02,P4,False positive
+INC100745,2026-09-14 23:53,UNIX disk /var > 80%,unix-app-01,P4,No action required
+INC100746,2026-09-15 02:42,Windows CPU > 90% 5 min,win-web-02,P3,False positive
+INC100747,2026-09-15 03:47,Datastore > 90%,esxi-ds-03,P3,Resolved - workaround
+INC100748,2026-09-15 09:19,UNIX disk /var > 80%,unix-app-02,P4,Auto-cleared
+INC100749,2026-09-15 12:06,UNIX disk /var > 80%,unix-app-01,P4,Auto-cleared
+INC100750,2026-09-15 15:20,Batch job late (informational),batch-sched-03,P4,No action required
+INC100751,2026-09-15 17:14,UNIX disk /var > 80%,unix-app-02,P4,No action required
+INC100752,2026-09-15 19:14,Backup job failed,bkp-04,P3,False positive
+INC100753,2026-09-15 22:44,SNMP interface flap,sw-core-03,P4,No action required
+INC100754,2026-09-16 01:09,Datastore > 90%,esxi-ds-01,P3,Resolved - workaround
+INC100755,2026-09-16 02:35,Windows CPU > 90% 5 min,win-web-01,P3,Auto-cleared
+INC100756,2026-09-16 04:14,Batch job late (informational),batch-sched-02,P4,Duplicate
+INC100757,2026-09-16 06:40,Mainframe link down,mf-gw-01,P1,Resolved - workaround
+INC100758,2026-09-16 07:03,Batch job late (informational),batch-sched-02,P4,No action required
+INC100759,2026-09-16 07:24,Windows CPU > 90% 5 min,win-web-04,P3,Auto-cleared
+INC100760,2026-09-16 09:05,Batch job late (informational),batch-sched-02,P4,False positive
+INC100761,2026-09-16 10:30,Datastore > 90%,esxi-ds-01,P3,Escalated to L2
+INC100762,2026-09-16 11:10,Windows CPU > 90% 5 min,win-web-02,P3,Duplicate
+INC100763,2026-09-16 11:49,SNMP interface flap,sw-core-03,P4,Auto-cleared
+INC100764,2026-09-16 12:35,UNIX disk /var > 80%,unix-app-03,P4,No action required
+INC100765,2026-09-16 13:58,UNIX disk /var > 80%,unix-app-03,P4,False positive
+INC100766,2026-09-16 18:39,Windows CPU > 90% 5 min,win-web-02,P3,No action required
+INC100767,2026-09-16 18:54,Service stopped: IIS W3SVC,win-web-02,P2,Escalated to L2
+INC100768,2026-09-17 03:13,SNMP interface flap,sw-core-03,P4,Resolved - fixed
+INC100769,2026-09-17 03:50,Batch job late (informational),batch-sched-01,P4,Auto-cleared
+INC100770,2026-09-17 09:06,UNIX disk /var > 80%,unix-app-04,P4,Auto-cleared
+INC100771,2026-09-17 11:22,SNMP interface flap,sw-core-03,P4,Duplicate
+INC100772,2026-09-17 15:58,SNMP interface flap,sw-core-02,P4,Resolved - workaround
+INC100773,2026-09-17 18:15,Batch job late (informational),batch-sched-02,P4,Resolved - fixed
+INC100774,2026-09-18 03:42,Windows CPU > 90% 5 min,win-web-04,P3,Resolved - workaround
+INC100775,2026-09-18 05:40,UNIX disk /var > 80%,unix-app-02,P4,Auto-cleared
+INC100776,2026-09-18 05:41,SNMP interface flap,sw-core-02,P4,Duplicate
+INC100777,2026-09-18 09:16,UNIX disk /var > 80%,unix-app-02,P4,False positive
+INC100778,2026-09-18 11:06,SNMP interface flap,sw-core-03,P4,False positive
+INC100779,2026-09-18 13:41,UNIX disk /var > 80%,unix-app-04,P4,No action required
+INC100780,2026-09-18 14:12,Batch job late (informational),batch-sched-01,P4,Duplicate
+INC100781,2026-09-18 14:20,UNIX disk /var > 80%,unix-app-01,P4,Resolved - workaround
+INC100782,2026-09-18 15:03,Batch job late (informational),batch-sched-03,P4,Resolved - workaround
+INC100783,2026-09-18 21:55,SNMP interface flap,sw-core-02,P4,Auto-cleared
+INC100784,2026-09-19 00:22,Windows CPU > 90% 5 min,win-web-01,P3,No action required
+INC100785,2026-09-19 04:14,UNIX disk /var > 80%,unix-app-01,P4,No action required
+INC100786,2026-09-19 05:28,UNIX disk /var > 80%,unix-app-03,P4,Auto-cleared
+INC100787,2026-09-19 05:57,UNIX disk /var > 80%,unix-app-04,P4,False positive
+INC100788,2026-09-19 12:30,SNMP interface flap,sw-core-04,P4,No action required
+INC100789,2026-09-19 14:12,SNMP interface flap,sw-core-04,P4,No action required
+INC100790,2026-09-19 14:23,Backup job failed,bkp-04,P3,Resolved - fixed
+INC100791,2026-09-19 22:02,SNMP interface flap,sw-core-03,P4,Duplicate
+INC100792,2026-09-19 23:36,UNIX disk /var > 80%,unix-app-03,P4,Auto-cleared
+INC100793,2026-09-20 06:02,UNIX disk /var > 80%,unix-app-04,P4,No action required
+INC100794,2026-09-20 09:18,Batch job late (informational),batch-sched-01,P4,No action required
+INC100795,2026-09-20 10:42,Batch job late (informational),batch-sched-02,P4,No action required
+INC100796,2026-09-20 15:58,UNIX disk /var > 80%,unix-app-04,P4,False positive
+INC100797,2026-09-20 17:19,UNIX disk /var > 80%,unix-app-02,P4,Duplicate
+INC100798,2026-09-20 19:43,UNIX disk /var > 80%,unix-app-01,P4,Auto-cleared
+INC100799,2026-09-20 20:28,SNMP interface flap,sw-core-01,P4,Auto-cleared
+INC100800,2026-09-20 20:59,UNIX disk /var > 80%,unix-app-01,P4,Duplicate
+INC100801,2026-09-21 03:24,UNIX disk /var > 80%,unix-app-01,P4,False positive
+INC100802,2026-09-21 05:30,SNMP interface flap,sw-core-03,P4,No action required
+INC100803,2026-09-21 08:38,UNIX disk /var > 80%,unix-app-04,P4,No action required
+INC100804,2026-09-21 13:12,UNIX disk /var > 80%,unix-app-01,P4,No action required
+INC100805,2026-09-21 16:27,UNIX disk /var > 80%,unix-app-01,P4,Auto-cleared
+INC100806,2026-09-21 17:50,SNMP interface flap,sw-core-03,P4,Auto-cleared
+INC100807,2026-09-21 18:35,SNMP interface flap,sw-core-01,P4,False positive
+INC100808,2026-09-22 04:37,Datastore > 90%,esxi-ds-03,P3,Escalated to L2
+INC100809,2026-09-22 06:16,Windows CPU > 90% 5 min,win-web-04,P3,False positive
+INC100810,2026-09-22 07:07,Windows CPU > 90% 5 min,win-web-03,P3,Duplicate
+INC100811,2026-09-22 07:24,SNMP interface flap,sw-core-04,P4,No action required
+INC100812,2026-09-22 10:59,Windows CPU > 90% 5 min,win-web-01,P3,Escalated to L2
+INC100813,2026-09-22 12:04,SNMP interface flap,sw-core-04,P4,Auto-cleared
+INC100814,2026-09-22 14:53,Batch job late (informational),batch-sched-02,P4,No action required
+INC100815,2026-09-22 17:32,Batch job late (informational),batch-sched-02,P4,False positive
+INC100816,2026-09-22 18:58,Batch job late (informational),batch-sched-02,P4,Resolved - fixed
+INC100817,2026-09-22 21:51,UNIX disk /var > 80%,unix-app-01,P4,Auto-cleared
+INC100818,2026-09-23 02:31,Windows CPU > 90% 5 min,win-web-04,P3,Duplicate
+INC100819,2026-09-23 02:47,Datastore > 90%,esxi-ds-04,P3,Escalated to L2
+INC100820,2026-09-23 03:11,SNMP interface flap,sw-core-01,P4,Duplicate
+INC100821,2026-09-23 06:21,UNIX disk /var > 80%,unix-app-02,P4,Resolved - fixed
+INC100822,2026-09-23 07:40,UNIX disk /var > 80%,unix-app-02,P4,Auto-cleared
+INC100823,2026-09-23 13:09,Batch job late (informational),batch-sched-02,P4,Auto-cleared
+INC100824,2026-09-23 13:14,UNIX disk /var > 80%,unix-app-03,P4,Auto-cleared
+INC100825,2026-09-23 15:26,Batch job late (informational),batch-sched-02,P4,Resolved - fixed
+INC100826,2026-09-23 18:09,Batch job late (informational),batch-sched-04,P4,Resolved - fixed
+INC100827,2026-09-23 18:36,Windows CPU > 90% 5 min,win-web-04,P3,Auto-cleared
+INC100828,2026-09-23 21:24,UNIX disk /var > 80%,unix-app-04,P4,Duplicate
+INC100829,2026-09-23 21:50,UNIX disk /var > 80%,unix-app-02,P4,Auto-cleared
+INC100830,2026-09-23 22:44,UNIX disk /var > 80%,unix-app-02,P4,No action required
+INC100831,2026-09-23 23:48,Windows CPU > 90% 5 min,win-web-02,P3,Duplicate
+INC100832,2026-09-24 00:11,Batch job late (informational),batch-sched-04,P4,False positive
+INC100833,2026-09-24 00:53,UNIX disk /var > 80%,unix-app-01,P4,Duplicate
+INC100834,2026-09-24 01:37,Windows CPU > 90% 5 min,win-web-01,P3,Resolved - workaround
+INC100835,2026-09-24 04:20,Windows CPU > 90% 5 min,win-web-04,P3,Duplicate
+INC100836,2026-09-24 06:03,Windows CPU > 90% 5 min,win-web-01,P3,Duplicate
+INC100837,2026-09-24 11:07,UNIX disk /var > 80%,unix-app-01,P4,Duplicate
+INC100838,2026-09-24 16:40,UNIX disk /var > 80%,unix-app-02,P4,No action required
+INC100839,2026-09-24 19:18,UNIX disk /var > 80%,unix-app-04,P4,False positive
+INC100840,2026-09-24 19:57,Batch job late (informational),batch-sched-03,P4,False positive
+INC100841,2026-09-24 21:13,Service stopped: IIS W3SVC,win-web-01,P2,Escalated to L2
+INC100842,2026-09-24 22:41,Batch job late (informational),batch-sched-02,P4,False positive
+INC100843,2026-09-25 00:53,UNIX disk /var > 80%,unix-app-04,P4,Duplicate
+INC100844,2026-09-25 00:53,Windows CPU > 90% 5 min,win-web-02,P3,False positive
+INC100845,2026-09-25 01:13,Windows CPU > 90% 5 min,win-web-02,P3,False positive
+INC100846,2026-09-25 04:53,UNIX disk /var > 80%,unix-app-04,P4,Auto-cleared
+INC100847,2026-09-25 05:48,SNMP interface flap,sw-core-01,P4,Resolved - workaround
+INC100848,2026-09-25 05:58,Datastore > 90%,esxi-ds-02,P3,Resolved - fixed
+INC100849,2026-09-25 08:07,SNMP interface flap,sw-core-02,P4,Duplicate
+INC100850,2026-09-25 08:44,Batch job late (informational),batch-sched-03,P4,False positive
+INC100851,2026-09-25 11:51,Batch job late (informational),batch-sched-01,P4,No action required
+INC100852,2026-09-25 12:31,SNMP interface flap,sw-core-01,P4,Duplicate
+INC100853,2026-09-25 13:28,Mainframe link down,mf-gw-04,P1,Escalated to L2
+INC100854,2026-09-25 14:07,SNMP interface flap,sw-core-04,P4,False positive
+INC100855,2026-09-25 15:19,Batch job late (informational),batch-sched-02,P4,Auto-cleared
+INC100856,2026-09-25 15:30,UNIX disk /var > 80%,unix-app-01,P4,No action required
+INC100857,2026-09-25 17:24,SNMP interface flap,sw-core-01,P4,False positive
+INC100858,2026-09-25 21:02,Batch job late (informational),batch-sched-01,P4,Resolved - fixed
+INC100859,2026-09-26 01:54,Windows CPU > 90% 5 min,win-web-03,P3,Duplicate
+INC100860,2026-09-26 02:38,Windows CPU > 90% 5 min,win-web-02,P3,Resolved - fixed
+INC100861,2026-09-26 07:37,Batch job late (informational),batch-sched-02,P4,Auto-cleared
+INC100862,2026-09-26 10:17,SNMP interface flap,sw-core-04,P4,Auto-cleared
+INC100863,2026-09-26 12:21,Batch job late (informational),batch-sched-04,P4,Auto-cleared
+INC100864,2026-09-26 13:19,UNIX disk /var > 80%,unix-app-03,P4,No action required
+INC100865,2026-09-26 13:41,Windows CPU > 90% 5 min,win-web-02,P3,False positive
+INC100866,2026-09-26 15:01,Windows CPU > 90% 5 min,win-web-03,P3,Resolved - fixed
+INC100867,2026-09-26 15:12,Batch job late (informational),batch-sched-01,P4,False positive
+INC100868,2026-09-26 15:28,SNMP interface flap,sw-core-04,P4,Auto-cleared
+INC100869,2026-09-26 19:01,Windows CPU > 90% 5 min,win-web-04,P3,Auto-cleared
+INC100870,2026-09-26 19:16,Service stopped: IIS W3SVC,win-web-03,P2,Resolved - workaround
+INC100871,2026-09-26 19:27,UNIX disk /var > 80%,unix-app-03,P4,No action required
+INC100872,2026-09-26 19:41,UNIX disk /var > 80%,unix-app-01,P4,Duplicate
+INC100873,2026-09-26 21:38,Batch job late (informational),batch-sched-01,P4,No action required
+INC100874,2026-09-26 22:50,SNMP interface flap,sw-core-02,P4,Auto-cleared
+INC100875,2026-09-27 01:01,SNMP interface flap,sw-core-01,P4,Duplicate
+INC100876,2026-09-27 02:54,Batch job late (informational),batch-sched-04,P4,Auto-cleared
+INC100877,2026-09-27 03:29,SNMP interface flap,sw-core-03,P4,Duplicate
+INC100878,2026-09-27 07:24,UNIX disk /var > 80%,unix-app-04,P4,No action required
+INC100879,2026-09-27 11:07,UNIX disk /var > 80%,unix-app-01,P4,Auto-cleared
+INC100880,2026-09-27 12:00,Windows CPU > 90% 5 min,win-web-03,P3,False positive
+INC100881,2026-09-27 13:52,UNIX disk /var > 80%,unix-app-02,P4,Auto-cleared
+INC100882,2026-09-27 15:07,SNMP interface flap,sw-core-03,P4,False positive
+INC100883,2026-09-27 16:36,Backup job failed,bkp-03,P3,Escalated to L2
+INC100884,2026-09-27 18:06,Windows CPU > 90% 5 min,win-web-03,P3,Duplicate
+INC100885,2026-09-28 01:32,Windows CPU > 90% 5 min,win-web-04,P3,False positive
+INC100886,2026-09-28 06:52,SNMP interface flap,sw-core-01,P4,Duplicate
+INC100887,2026-09-28 07:06,SNMP interface flap,sw-core-03,P4,No action required
+INC100888,2026-09-28 10:02,Backup job failed,bkp-01,P3,Escalated to L2
+INC100889,2026-09-28 16:14,UNIX disk /var > 80%,unix-app-01,P4,Auto-cleared
+INC100890,2026-09-28 16:26,UNIX disk /var > 80%,unix-app-03,P4,False positive
+INC100891,2026-09-28 23:13,UNIX disk /var > 80%,unix-app-04,P4,Auto-cleared

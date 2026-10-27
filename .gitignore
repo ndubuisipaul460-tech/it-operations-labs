@@ -1,0 +1,3 @@
+# Health reports contain machine-specific data (host names, local event logs)
+Monitoring-Scripts/reports/
+*.log
